@@ -330,7 +330,7 @@ export default function MarkynLab() {
       </div>
       <div className="bg-[#163b30] content-stretch flex flex-col h-[690px] items-start justify-between overflow-clip pb-[27px] pt-[65px] px-[80px] relative shrink-0 w-full" data-node-id="1:20" data-name="Explore hero｜山を探す">
         <div className="absolute h-[690px] left-0 top-0 w-[1440px]" data-node-id="1:21" data-name="Alpine panorama">
-          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgAlpinePanorama} />
+          <img alt="" className="absolute inset-0 max-w-none object-cover object-[65%_center] pointer-events-none size-full" src={imgAlpinePanorama} />
         </div>
         <div className="absolute bg-gradient-to-r from-[rgba(16,40,32,0.72)] h-[690px] left-0 to-[rgba(17,42,37,0.06)] top-0 via-[65%] via-[rgba(19,43,37,0.19)] w-[1440px]" data-node-id="1:22" data-name="Photo shade" />
         <div className="content-stretch flex flex-col gap-[24px] items-start overflow-clip relative shrink-0 w-[760px]" data-node-id="1:23" data-name="Hero introduction">
@@ -865,7 +865,7 @@ export default function MarkynLab() {
             </div>
           </div>
         </div>
-        <div className="content-stretch flex gap-[32px] items-start overflow-clip relative shrink-0 w-full" data-node-id="1:356" data-name="Article collection">
+        <div className="content-stretch flex flex-col md:flex-row gap-[32px] items-start overflow-clip relative shrink-0 w-full">
           <div className="content-stretch flex flex-[1_0_0] flex-col gap-[20px] items-start min-w-px overflow-clip relative" data-node-id="1:357" data-name="Knowledge article">
             <div className="h-[192px] relative rounded-[8px] shrink-0 w-full" data-node-id="1:358" data-name="Article photograph">
               <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={imgArticlePhotograph} />
@@ -958,13 +958,13 @@ export default function MarkynLab() {
           </div>
         </div>
       </div>
-      <div className="bg-[#eaf0e9] content-stretch flex gap-[28px] items-center overflow-clip px-[80px] py-[38px] relative shrink-0 w-full" data-node-id="1:393" data-name="Safety information">
+      <div className="bg-[#eaf0e9] content-stretch flex flex-col md:flex-row gap-[28px] items-center overflow-clip px-[24px] md:px-[80px] py-[38px] relative shrink-0 w-full" data-node-id="1:393" data-name="Safety information">
         <div className="bg-white content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shrink-0 size-[58px]" data-node-id="1:394" data-name="Safety symbol">
           <div className="relative shrink-0 size-[28px]" data-node-id="1:395" data-name="shield-check">
             <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgShieldCheck} />
           </div>
         </div>
-        <div className="[word-break:break-word] content-stretch flex flex-col gap-[12px] items-start overflow-clip relative shrink-0 w-[740px]" data-node-id="1:397" data-name="Safety message">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[12px] items-start overflow-clip relative shrink-0 w-full md:w-[740px]" data-node-id="1:397" data-name="Safety message">
           <p className="font-['Noto_Sans_JP:Medium'] font-medium leading-[normal] relative shrink-0 text-[#202e29] text-[19px] w-full" data-node-id="1:398">
             安全に帰るまでが、登山です。
           </p>
@@ -992,8 +992,8 @@ export default function MarkynLab() {
           </div>
         </div>
       </div>
-      <div className="bg-[#f0eee6] content-stretch flex items-center justify-between overflow-clip px-[80px] py-[60px] relative shrink-0 w-full" data-node-id="1:409" data-name="Mountain newsletter">
-        <div className="[word-break:break-word] content-stretch flex flex-col gap-[17px] items-start overflow-clip relative shrink-0 w-[650px]" data-node-id="1:410" data-name="Newsletter introduction">
+      <div className="bg-[#f0eee6] content-stretch flex flex-col md:flex-row items-center justify-between overflow-clip px-[24px] md:px-[80px] py-[60px] relative shrink-0 w-full" data-node-id="1:409" data-name="Mountain newsletter">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[17px] items-start overflow-clip relative shrink-0 w-full md:w-[650px]" data-node-id="1:410" data-name="Newsletter introduction">
           <p className="font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#285344] text-[10px] whitespace-nowrap" data-node-id="1:411">
             LETTERS FROM THE MOUNTAINS
           </p>
@@ -1004,7 +1004,7 @@ export default function MarkynLab() {
             季節のおすすめルートや、山歩きのヒントを月に一度お届けします。
           </p>
         </div>
-        <div className="content-stretch flex flex-col gap-[12px] items-start overflow-clip relative shrink-0 w-[480px]" data-node-id="1:414" data-name="Newsletter signup">
+        <div className="content-stretch flex flex-col gap-[12px] items-start overflow-clip relative shrink-0 w-full md:w-[480px]" data-node-id="1:414" data-name="Newsletter signup">
           <div className="bg-white border border-[#dce2da] border-solid content-stretch flex h-[54px] items-center overflow-clip relative rounded-[4px] shrink-0 w-full" data-node-id="1:415" data-name="Email entry">
             <div className="content-stretch flex flex-[1_0_0] gap-[10px] items-center min-w-px overflow-clip px-[16px] relative" data-node-id="1:416" data-name="Email field">
               <div className="relative shrink-0 size-[18px]" data-node-id="1:417" data-name="mail">
