@@ -1,0 +1,10 @@
+{
+  "description": "Figmaデザインを忠実に再現したWebサイトで、デザインのレイアウトや画像、文字、色をそのまま確認できます。",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
